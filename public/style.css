@@ -2760,6 +2760,11 @@ App Landing CSS
   bottom: 0;
 }
 
+/* back to top button */
+#Mybtn{
+  background-color:#FFFF00;
+}
+
 /* Shape rotate */
 .rotateme {
   -webkit-animation-name: rotateme;
@@ -3060,8 +3065,4 @@ App Landing CSS
     -webkit-transform: translate(0px, 0px) rotate(0deg);
             transform: translate(0px, 0px) rotate(0deg);
   }
-}
-// back to top button
-.top button{
-  background-color:#FFFF00;
 }

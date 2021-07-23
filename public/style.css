@@ -3061,3 +3061,7 @@ App Landing CSS
             transform: translate(0px, 0px) rotate(0deg);
   }
 }
+// back to top button
+.top button{
+  background-color:#FFFF00;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Whatmore.css";
 
 function Whatmore(){
     return (

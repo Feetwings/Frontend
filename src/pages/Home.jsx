@@ -17,7 +17,6 @@ function Home() {
       <Work/>
       <Subscribe/>
       <Footer/>
-  
     </div>
   )
 }

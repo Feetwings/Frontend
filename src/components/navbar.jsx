@@ -1,5 +1,6 @@
 import React from "react";
 
+import "../styles/navbar.css";
 function navbar(){
     return(
         <nav class="navbar fixed-top navbar-expand-lg main-navbar app-nav">

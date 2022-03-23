@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/landingP.css";
 
 function landingP(){
     return(
@@ -7,7 +8,7 @@ function landingP(){
                 <div class="row align-items-center sock-reverse">
                     <div class="col-lg-6">
                         <div class="app-bennr-text">
-                            <h1>Smart Textile Based Healthcare Assistant</h1>
+                            <h1 className="hover-effect">Smart Textile Based Healthcare Assistant</h1>
                             <p>FeetWings is a smart wearable company that aims to provide a solution to diabetes and related complications at an affordable rate.</p>
 
                             <div class="app-shapes d-flex  " style={{gap:20,marginBottom:"20px"}}>

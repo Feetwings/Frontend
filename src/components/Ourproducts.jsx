@@ -1,11 +1,12 @@
 import React from "react";
+import "../styles/OurProduct.css";
 
 function Ourproducts() {
   return (
     <div id="home" class="sc pt-100">
       <div class="container">
         <div class=" align-items-center text-center">
-          <div>
+          <div className="headingBg">
             <h1 class="heading">FeetWings</h1>
             <br></br>
             <h2 class="subheading">
@@ -52,8 +53,8 @@ function Ourproducts() {
         <div class="container">
           {" "}
           <div>
-            <div style={{fontSize:"60px"}}>Our Solution</div>
-            <div style={{fontSize:"30px"}}>
+            <div style={{ fontSize: "60px" }}>Our Solution</div>
+            <div style={{ fontSize: "30px" }}>
               Constant and continuous monitoring of critical parameters using
               IoT
             </div>
@@ -61,7 +62,9 @@ function Ourproducts() {
           <div class="space"></div>
           <div class="container">
             <div class="row">
-              <p class="pt-4" style={{fontSize:"24px"}}>Temperature monitoring can reduce foot ulcer by</p>
+              <p class="pt-4" style={{ fontSize: "24px" }}>
+                Temperature monitoring can reduce foot ulcer by
+              </p>
               <div class="space"></div>
               <div class="circular">
                 <div class="inner"></div>
@@ -79,7 +82,7 @@ function Ourproducts() {
             <br></br>
             <br></br>
             <div class="row">
-              <p class="pt-4" style={{fontSize:"24px"}}>
+              <p class="pt-4" style={{ fontSize: "24px" }}>
                 Glucose monitoring can reduce risk of contracting any diabetic
                 complication by
               </p>

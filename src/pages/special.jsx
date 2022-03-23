@@ -6,7 +6,7 @@ function special(){
         <div id="special" class="easy-step-area ptb-100">
             <div class="container">
                 <div class="section-title pb-4">
-                    <h1>What Makes Us Special ?</h1>
+                    <h1 className="special-hover">What Makes Us Special ?</h1>
                 </div>
 
                 <div class="row align-items-spacearound first-step-area">

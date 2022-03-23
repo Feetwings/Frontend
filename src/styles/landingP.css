@@ -1,0 +1,342 @@
+/* App Landing Banner Area */
+.app-banner-area {
+  background-color: #b9b8b921;
+  position: relative;
+  margin-top: 65px;
+  padding-bottom: 150px;
+  z-index: 2;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.app-banner-area .app-bennr-text {
+  /* color:#000000; */
+  position: relative;
+  z-index: 1;
+}
+
+/* .app-banner-area .container{
+    height:490px;
+  } */
+
+.app-banner-area .app-bennr-text .app-btn {
+  margin-top: 40px;
+}
+
+.app-banner-area .btn {
+  background-color: #bababa;
+}
+.app-banner-area .btn_container {
+  display: flex;
+}
+.app-banner-area .app-bennr-text .app-btn .app-btn-1 {
+  background-color: #567df4;
+  border: 1px solid #567df4;
+  color: var(--background);
+}
+
+.app-banner-area .app-bennr-text .app-btn .app-btn-1:hover {
+  background-color: var(--background);
+  color: #567df4;
+}
+
+.app-banner-area .app-bennr-text .app-btn .app-btn-2 {
+  border: 1px solid #567df4;
+  color: #567df4;
+}
+
+.app-banner-area .app-bennr-text .app-btn .app-btn-2:hover {
+  background-color: #567df4;
+  color: var(--background);
+}
+
+.app-banner-area .app-bennr-text span {
+  font-size: 18px;
+  color: #567df4;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.app-banner-area .app-bennr-text h1 {
+  font-size: 68px;
+  margin-bottom: 40px;
+}
+
+.app-banner-area .app-bennr-text p {
+  color: #000000;
+  font-size: 20px;
+}
+
+.app-banner-area .app-bennr-text .mt-30 {
+  margin-top: 30px;
+}
+
+.app-banner-area .app-bennr-text .app-text {
+  padding-left: 130px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.app-banner-area .app-bennr-text .app-text h3 {
+  font-size: 44px;
+  position: absolute;
+  left: 0;
+  padding-right: 10px;
+  border-right: 1px solid #c1bfcb;
+  color: #567df4;
+}
+
+.app-banner-area .app-bennr-text .app-text p {
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+.app-banner-area .app-bennr-text .app-shapes .shape-1 {
+  position: absolute;
+  bottom: 0;
+  left: -380px;
+  max-width: 350px;
+  -webkit-animation: moveLeftBounce 3s linear infinite;
+  animation: moveLeftBounce 3s linear infinite;
+  z-index: -1;
+}
+
+.app-banner-area .app-bennr-text .app-shapes .shape-30 {
+  position: absolute;
+  top: -30px;
+  left: -70px;
+  max-width: 150px;
+  opacity: 0.5;
+  z-index: -1;
+  -webkit-animation: moveLeftBounce 3s linear infinite;
+  animation: moveLeftBounce 3s linear infinite;
+}
+
+.app-banner-area .app-bennr-text .app-shapes .shape-28 {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  -webkit-animation-name: rotateme;
+  animation-name: rotateme;
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.app-banner-area .app-bennr-text .app-shapes .shape-16 {
+  position: absolute;
+  top: -30px;
+  left: -110px;
+  -webkit-animation: animationFramesOne 20s infinite linear;
+  animation: animationFramesOne 20s infinite linear;
+}
+
+.app-banner-area .app-bennr-text .app-shapes .shape-11 {
+  position: absolute;
+  bottom: 10px;
+  left: -50px;
+  -webkit-animation: animationFramesOne 20s infinite linear;
+  animation: animationFramesOne 20s infinite linear;
+}
+
+.app-banner-area .app-bennr-text .app-shapes .shape-14 {
+  position: absolute;
+  right: 0;
+  bottom: 120px;
+  -webkit-animation: moveLeftBounce 3s linear infinite;
+  animation: moveLeftBounce 3s linear infinite;
+}
+
+.app-banner-area .app-banner-img {
+  position: relative;
+  z-index: 1;
+}
+
+.app-banner-area .app-banner-img .app-shapes .shape-31 {
+  position: absolute;
+  bottom: 60px;
+  left: 10px;
+  z-index: -1;
+  max-width: 200px;
+  -webkit-animation-name: rotateme;
+  animation-name: rotateme;
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.app-banner-area .app-banner-img .app-shapes .shape-22 {
+  position: absolute;
+  bottom: 430px;
+  right: -60px;
+  z-index: -1;
+  -webkit-animation: moveLeftBounce 3s linear infinite;
+  animation: moveLeftBounce 3s linear infinite;
+}
+
+.app-banner-area .app-banner-img .app-shapes .shape-2 {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  -webkit-animation: animationFramesOne 20s infinite linear;
+  animation: animationFramesOne 20s infinite linear;
+}
+
+.app-banner-area .app-banner-img .app-shapes .shape-4 {
+  position: absolute;
+  top: 180px;
+  right: -50px;
+  -webkit-animation: animationFramesOne 20s infinite linear;
+  animation: animationFramesOne 20s infinite linear;
+}
+
+.app-banner-area .app-banner-img .app-shapes .shape-5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-animation: moveLeftBounce 3s linear infinite;
+  animation: moveLeftBounce 3s linear infinite;
+}
+
+.app-banner-area .bg-shape {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  max-width: 400px;
+}
+
+.hover-effect {
+  display: inline-block;
+  position: relative;
+  text-shadow: 1px 1px #069ee8;
+}
+.hover-effect:hover {
+  text-shadow: 3px 1px #007bff;
+  animation: hoverEffect 2s linear;
+}
+.hover-effect:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #007bff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-effect:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@keyframes hoverEffect {
+  from {
+    color: #5678e9;
+    text-shadow: 1px 1px #7ec3e6;
+  }
+  to {
+    color: #141516;
+    text-shadow: 4px 1px #2771e0;
+  }
+}
+
+.app-img {
+  animation: sockanimate 3s linear infinite;
+}
+
+@keyframes sockanimate {
+  0% {
+    filter: blur(1px);
+    opacity: 0.5;
+  }
+  50% {
+    filter: none;
+    opacity: 1;
+  }
+  100% {
+    filter: blur(1px);
+    opacity: 0.5;
+  }
+}
+
+.special-hover {
+  display: inline-block;
+  position: relative;
+}
+.special-hover:hover {
+  text-shadow: 1px 1px #2771e0;
+  color: #0b2372;
+}
+.special-hover:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #007bff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.special-hover:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.banner-title {
+  display: inline-block;
+  position: relative;
+}
+.banner-title:hover {
+  text-shadow: 1px 1px #2771e0;
+  color: #0b2372;
+}
+.banner-title:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #007bff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.banner-title:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.how-we-work-card {
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.how-we-work-card:hover {
+  box-shadow: 0 5px 15px #2771e0;
+  animation: rotator 0.1s linear;
+}
+@keyframes rotator {
+  from {
+    transform: rotateY(0deg);
+    box-shadow: 0 5px 15px #007bff;
+  }
+  to {
+    transform: rotateY(360deg);
+    box-shadow: 0 5px 15px #007bff;
+  }
+}

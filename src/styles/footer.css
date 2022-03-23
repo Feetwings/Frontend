@@ -1,0 +1,152 @@
+/* Footer Area CSS */
+/* footer design */
+.footer .container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.footer-area {
+  background-color: white;
+}
+
+.footer-area.bor-radius-right {
+  border-radius: 0px 130px 0px 0px;
+}
+
+.footer-area.bor-radius-top {
+  border-radius: 130px 130px 0px 0px;
+}
+
+.footer-area.pt-200 {
+  padding-top: 50px;
+}
+
+.footer-area .footer-widget {
+  margin-bottom: 30px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-area .footer-widget .logo {
+  max-width: 130px;
+  margin-bottom: 20px;
+}
+
+.footer-area .footer-widget p {
+  color: #6c757d;
+}
+
+.footer-area .footer-widget .footer-social {
+  padding-left: 0;
+  margin: 25px 0 0 0;
+}
+
+.footer-area .footer-widget .footer-social li {
+  display: flex;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+.footer-area .footer-widget .footer-social li a i {
+  color: var(--background);
+  font-size: 17px;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.footer-area .footer-widget .footer-social li a i.bg-1 {
+  background-color: #165184;
+}
+
+.footer-area .footer-widget .footer-social li a i.bg-2 {
+  background-color: #165184;
+}
+
+.footer-area .footer-widget .footer-social li a i.bg-3 {
+  background-color: #165184;
+}
+
+.footer-area .footer-widget .footer-social li a i.bg-4 {
+  background-color: #165184;
+}
+
+.footer-area .footer-widget .footer-social li a:hover i.bg-1 {
+  background-color: #58d7c1;
+}
+
+.footer-area .footer-widget .footer-social li a:hover i.bg-2 {
+  background-color: #fb9ed7;
+}
+
+.footer-area .footer-widget .footer-social li a:hover i.bg-3 {
+  background-color: #fa866b;
+}
+
+.footer-area .footer-widget .footer-social li a:hover i.bg-4 {
+  background-color: #f5d150;
+}
+
+.footer-area .footer-widget .title {
+  padding-left: 20px;
+  font-size: 20px;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.footer-area .footer-widget .footer-text {
+  padding: 0px;
+  color: #6c757d;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+.footer-area .footer-widget .footer-text li {
+  padding: 0 0 0 20px;
+  margin: 0 0 7px 0;
+  position: relative;
+}
+
+.footer-area .footer-widget .footer-text li a {
+  color: #6c757d;
+}
+
+.footer-area .footer-widget .footer-text li a i {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+.footer-area .footer-widget .footer-text li a:hover {
+  color: var(--text-primary);
+}
+
+.footer-area .footer-widget .footer-image img {
+  margin-bottom: 10px;
+}
+
+.footer-area .copyright-text {
+  margin-top: 70px;
+  text-align: center;
+  padding: 25px 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-top: 1px solid #6b8df5;
+}
+
+.footer-area .copyright-text p {
+  color: #495057;
+}
+
+.footer-area .copyright-text p a {
+  color: #f5d150;
+}
+
+.footer-area .copyright-text p a:hover {
+  color: #fa866b;
+}

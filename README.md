@@ -42,7 +42,7 @@ cd feetwings.github.io
 - Install dependencies.
 
 ```shell
-  npm install
+npm install
 ```
 - Run the frontend.
 

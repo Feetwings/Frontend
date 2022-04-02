@@ -6,9 +6,10 @@ WORKDIR /app
 COPY package.json .
 COPY yarn.lock .
 RUN yarn install
+RUN npm install
 # Copy app files
 COPY . .
 # Expose port
 EXPOSE 3000
 # Start the app
-CMD [ "yarn", "start" ]
+CMD [ "npm", "run", "yarn", "start" ]

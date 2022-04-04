@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto&display=swap');
+
 body {
   font-family: "Sarabun", sans-serif;
   font-size: 16px;
@@ -694,12 +696,7 @@ p:last-child {
   color: #242424;
 }
 
-.clients-area
-  .clients-slider
-  .clients-slider-item
-  .client-text
-  .text
-  .text-icon-1 {
+.clients-area .clients-slider .clients-slider-item .client-text .text .text-icon-1 {
   position: absolute;
   font-size: 30px;
   color: #ccd8fc;
@@ -707,12 +704,7 @@ p:last-child {
   top: -15px;
 }
 
-.clients-area
-  .clients-slider
-  .clients-slider-item
-  .client-text
-  .text
-  .text-icon-2 {
+.clients-area .clients-slider .clients-slider-item .client-text .text .text-icon-2 {
   position: absolute;
   font-size: 30px;
   color: #ccd8fc;
@@ -999,12 +991,14 @@ p:last-child {
     -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
     animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
+
   50% {
     -webkit-transform: rotate(900deg);
     transform: rotate(900deg);
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
+
   100% {
     -webkit-transform: rotate(1800deg);
     transform: rotate(1800deg);
@@ -1018,12 +1012,14 @@ p:last-child {
     -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
     animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
+
   50% {
     -webkit-transform: rotate(900deg);
     transform: rotate(900deg);
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
+
   100% {
     -webkit-transform: rotate(1800deg);
     transform: rotate(1800deg);
@@ -1346,6 +1342,7 @@ p:last-child {
 .video-btn-1 a .ripple {
   background-color: rgba(255, 255, 255, 0.46);
 }
+
 .how-we-work {
   background-color: #ffffff9e;
 }
@@ -1396,6 +1393,7 @@ p:last-child {
   transition: all 0.5s;
   height: 400px;
 }
+
 .our-service-card img {
   background-color: #f2e88d;
   width: 130px;
@@ -2006,6 +2004,7 @@ Startup Agency CSS
   line-height: 0.6;
   color: #f7f7f7;
 }
+
 /* Case Study Area */
 .case-study-2 .caption {
   background-color: rgba(163, 56, 204, 0.8) !important;
@@ -2193,6 +2192,7 @@ App Landing CSS
 .navbar {
   background-color: white;
 }
+
 .main-navbar.app-nav {
   border-bottom: 1px solid #edf0f4;
 }
@@ -2238,9 +2238,11 @@ App Landing CSS
 .app-banner-area .btn {
   background-color: #bababa;
 }
+
 .app-banner-area .btn_container {
   display: flex;
 }
+
 .app-banner-area .app-bennr-text .app-btn .app-btn-1 {
   background-color: #567df4;
   border: 1px solid #567df4;
@@ -2743,11 +2745,7 @@ App Landing CSS
   margin: 0 6px;
 }
 
-.clients-slider-two-area
-  .clients-slider-two.owl-theme
-  .owl-dots
-  .owl-dot.active
-  span {
+.clients-slider-two-area .clients-slider-two.owl-theme .owl-dots .owl-dot.active span {
   background-color: #567df4;
   width: 50px;
   height: 12px;
@@ -2843,6 +2841,7 @@ App Landing CSS
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -2853,6 +2852,7 @@ App Landing CSS
   from {
     -webkit-transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
   }
@@ -2863,6 +2863,7 @@ App Landing CSS
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
   }
+
   100% {
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
@@ -2874,6 +2875,7 @@ App Landing CSS
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
   }
+
   100% {
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
@@ -2885,22 +2887,27 @@ App Landing CSS
     -webkit-transform: translate(0px, 0px) rotate(0deg);
     transform: translate(0px, 0px) rotate(0deg);
   }
+
   20% {
     -webkit-transform: translate(73px, -1px) rotate(36deg);
     transform: translate(73px, -1px) rotate(36deg);
   }
+
   40% {
     -webkit-transform: translate(141px, 72px) rotate(72deg);
     transform: translate(141px, 72px) rotate(72deg);
   }
+
   60% {
     -webkit-transform: translate(83px, 122px) rotate(108deg);
     transform: translate(83px, 122px) rotate(108deg);
   }
+
   80% {
     -webkit-transform: translate(-40px, 72px) rotate(144deg);
     transform: translate(-40px, 72px) rotate(144deg);
   }
+
   100% {
     -webkit-transform: translate(0px, 0px) rotate(0deg);
     transform: translate(0px, 0px) rotate(0deg);
@@ -2911,18 +2918,23 @@ App Landing CSS
   0% {
     -webkit-transform: translate(0px, 0px) rotate(0deg);
   }
+
   20% {
     -webkit-transform: translate(73px, -1px) rotate(36deg);
   }
+
   40% {
     -webkit-transform: translate(141px, 72px) rotate(72deg);
   }
+
   60% {
     -webkit-transform: translate(83px, 122px) rotate(108deg);
   }
+
   80% {
     -webkit-transform: translate(-40px, 72px) rotate(144deg);
   }
+
   100% {
     -webkit-transform: translate(0px, 0px) rotate(0deg);
   }
@@ -2935,6 +2947,7 @@ App Landing CSS
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2),
       0 0 0 20px rgba(255, 255, 255, 0.2), 0 0 0 40px rgba(255, 255, 255, 0.2);
   }
+
   100% {
     -webkit-box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.2),
       0 0 0 40px rgba(255, 255, 255, 0.2), 0 0 0 60px rgba(255, 255, 255, 0);
@@ -2950,6 +2963,7 @@ App Landing CSS
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2),
       0 0 0 20px rgba(255, 255, 255, 0.2), 0 0 0 40px rgba(255, 255, 255, 0.2);
   }
+
   100% {
     -webkit-box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.2),
       0 0 0 40px rgba(255, 255, 255, 0.2), 0 0 0 60px rgba(255, 255, 255, 0);
@@ -2964,24 +2978,29 @@ App Landing CSS
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
+
   50% {
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
   }
+
   100% {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
 }
+
 @keyframes moveBounce {
   0% {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
+
   50% {
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
   }
+
   100% {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
@@ -2993,10 +3012,12 @@ App Landing CSS
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
+
   50% {
     -webkit-transform: translateX(5px);
     transform: translateX(5px);
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -3008,10 +3029,12 @@ App Landing CSS
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
+
   50% {
     -webkit-transform: translateX(5px);
     transform: translateX(5px);
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -3023,11 +3046,13 @@ App Landing CSS
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+
   75% {
     -webkit-transform: scale(1.75);
     transform: scale(1.75);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(2);
     transform: scale(2);
@@ -3040,6 +3065,7 @@ App Landing CSS
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -3051,6 +3077,7 @@ App Landing CSS
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   to {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -3062,10 +3089,12 @@ App Landing CSS
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+
   50% {
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -3077,10 +3106,12 @@ App Landing CSS
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+
   50% {
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -3088,12 +3119,14 @@ App Landing CSS
 }
 
 @-webkit-keyframes sk-bouncedelay {
+
   0%,
   80%,
   100% {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   40% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -3101,12 +3134,14 @@ App Landing CSS
 }
 
 @keyframes sk-bouncedelay {
+
   0%,
   80%,
   100% {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   40% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -3118,27 +3153,33 @@ App Landing CSS
     -webkit-transform: translate(0px, 0px) rotate(0deg);
     transform: translate(0px, 0px) rotate(0deg);
   }
+
   20% {
     -webkit-transform: translate(73px, -1px) rotate(36deg);
     transform: translate(73px, -1px) rotate(36deg);
   }
+
   40% {
     -webkit-transform: translate(141px, 72px) rotate(72deg);
     transform: translate(141px, 72px) rotate(72deg);
   }
+
   60% {
     -webkit-transform: translate(83px, 122px) rotate(108deg);
     transform: translate(83px, 122px) rotate(108deg);
   }
+
   80% {
     -webkit-transform: translate(-40px, 72px) rotate(144deg);
     transform: translate(-40px, 72px) rotate(144deg);
   }
+
   100% {
     -webkit-transform: translate(0px, 0px) rotate(0deg);
     transform: translate(0px, 0px) rotate(0deg);
   }
 }
+
 /* back to top button */
 .fas {
   position: fixed;
@@ -3154,6 +3195,7 @@ App Landing CSS
   font-size: 20px;
   z-index: 1;
 }
+
 /* footer design */
 .footer .container {
   margin: 0;
@@ -3180,10 +3222,12 @@ App Landing CSS
   font-weight: 300;
   padding-bottom: 12rem;
 }
+
 .para {
   font-size: 20px;
   font-weight: 300;
 }
+
 .problem {
   width: 401px;
   height: 82px;
@@ -3202,9 +3246,11 @@ App Landing CSS
   background-color: white;
   padding: 6rem;
 }
+
 .img {
   margin-left: 10px;
 }
+
 .rectangle {
   width: 1038px;
   height: 130px;
@@ -3217,6 +3263,7 @@ App Landing CSS
   flex-direction: row;
   align-items: center;
 }
+
 .mes {
   width: 280px;
   height: 75px;
@@ -3247,6 +3294,7 @@ App Landing CSS
   position: relative;
   transform: scale(1);
 }
+
 .circular .inner {
   position: absolute;
   z-index: 6;
@@ -3258,6 +3306,7 @@ App Landing CSS
   background: #f3f3f3;
   border-radius: 100%;
 }
+
 .circular .number {
   position: absolute;
   top: 50%;
@@ -3268,6 +3317,7 @@ App Landing CSS
   font-weight: 500;
   color: black;
 }
+
 .circular .bar {
   position: absolute;
   height: 100%;
@@ -3276,6 +3326,7 @@ App Landing CSS
   -webkit-border-radius: 100%;
   clip: rect(0px, 100px, 100px, 50px);
 }
+
 .circle .bar .progress {
   position: absolute;
   height: 100%;
@@ -3284,6 +3335,7 @@ App Landing CSS
   clip: rect(0px, 50px, 100px, 0px);
   background: #4158d0;
 }
+
 .circle .left .progress {
   z-index: 1;
   animation: left 4s linear both;
@@ -3293,14 +3345,17 @@ App Landing CSS
   transform: rotate(180deg);
   z-index: 3;
 }
+
 .circle .right .progress {
   animation: right 4s linear both;
   animation-delay: 4s;
 }
+
 .space {
   height: 100px;
   width: 100px;
 }
+
 .sc {
   background-color: #b9b8b921;
   position: relative;
@@ -3309,10 +3364,12 @@ App Landing CSS
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
 .anchor {
   text-decoration: none;
   color: #000000;
 }
+
 .cs {
   align-items: center;
   justify-content: center;
@@ -3325,6 +3382,7 @@ App Landing CSS
 
   color: #000000;
 }
+
 .rect {
   padding: 15px;
   left: 180px;
@@ -3333,6 +3391,7 @@ App Landing CSS
   box-shadow: 0px 4px 4px rgba(105, 105, 105, 0.25);
   border-radius: 30px;
 }
+
 .input {
   background: #f3f4f4;
   border-radius: 30px;
@@ -3341,6 +3400,7 @@ App Landing CSS
   width: 630px;
   height: 44px;
 }
+
 #message {
   background: #f3f4f4;
   border-radius: 30px;
@@ -3349,6 +3409,7 @@ App Landing CSS
   height: 94px;
   padding: 30px;
 }
+
 .button {
   background: #000000;
   border-radius: 30px;
@@ -3356,7 +3417,8 @@ App Landing CSS
   border: 0px;
   padding: 6px 12px 6px 12px;
 }
-.shree{
+
+.shree {
   background: #f3f4f4;
   border-radius: 30px;
   border: 0px;
@@ -3366,11 +3428,13 @@ App Landing CSS
   padding: 10px;
   margin: 4px;
 }
-.box{
-margin:6rem;
-background: #FFFFFF;
-border-radius: 20px;
+
+.box {
+  margin: 6rem;
+  background: #FFFFFF;
+  border-radius: 20px;
 }
-.dis{
+
+.dis {
   margin-right: 4rem;
 }

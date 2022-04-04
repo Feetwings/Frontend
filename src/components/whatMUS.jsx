@@ -24,7 +24,7 @@ function WMUS() {
                                 </p>
                             </div>
                             <div class="btn-container-new visible">
-                                <button class="btn-new">Learn More</button>
+                                <button class="btn-new visible">Learn More</button>
                             </div>
                         </div>
 

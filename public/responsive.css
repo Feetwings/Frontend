@@ -1620,7 +1620,17 @@
     font-size: 12px;
   }
 
+  .banner-box {
+    width: 100%;
+  }
+
+  .left-banner {
+    max-width: 100%;
+  }
+
   .btn-container-new {
-    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
   }
 }

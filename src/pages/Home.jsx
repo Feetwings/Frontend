@@ -6,6 +6,8 @@ import Footer from "../components/footer";
 import Work from "./work";
 import WMUS from "../components/whatMUS";
 import Subscribe from '../components/Subscribe';
+import Darkfooter from '../components/darkfooter';
+import SubscribeDark from '../components/SubscribeDark';
 
 function Home() {
   return (
@@ -15,8 +17,12 @@ function Home() {
       <Special/>
       <WMUS/>
       <Work/>
-      <Subscribe/>
-      <Footer/>
+    
+      <SubscribeDark/>
+      <Darkfooter />
+      
+      
+      
   
     </div>
   )

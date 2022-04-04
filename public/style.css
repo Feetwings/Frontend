@@ -2,7 +2,7 @@
 body {
   font-family: "Sarabun", sans-serif;
   font-size: 16px;
-  color: #7f7f7f;
+  color: #b9b8b921;
 }
 
 img {
@@ -3373,4 +3373,117 @@ border-radius: 20px;
 }
 .dis{
   margin-right: 4rem;
+}
+
+/*....Subscribe Dark.....*/
+.back{
+  margin-top: 200px !important;
+  background-color: #000;
+  height: 500px;
+ 
+}
+.subscribe-dark{
+  
+  margin-top: -680px !important;
+  border-radius: 18px;
+  position: static;
+  display: grid;
+  background-color:  rgba(32, 32, 32, 1);
+  width: 837px;
+  height: 353px;
+  margin-left: 195px;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  
+}
+.subscribe-dark h2{
+  margin-top: 30px;
+  font-family: 'Lato';
+  font-weight: 600 Semi Bold;
+  font-size: 48px;
+  line-height: 57.6px;
+  letter-spacing: 0.8%;
+  align-items: center;
+  color: rgba(250, 235, 155, 1);
+}
+
+.email-dark{
+  padding: 40px;
+  margin-top: 10px;
+  margin-left: 40px;
+  display: flex;
+}
+.email-dark .email-field-dark{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 46px 16px 20px;
+  position: static;
+  width: 301px;
+  height: 40px;
+  left: 0px;
+  top: 2px;
+  border: none;
+  background: #E8E8E8;
+  border-radius: 50px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 36px;
+}
+.email-dark .dark-sub{
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  
+  background: #FCE354;
+border-radius: 20px;
+position: static;
+height: 40px;
+width: 130px;
+
+right: 0%;
+top: calc(50% - 60px/2);
+border: none;
+
+}
+.dark-footer{
+  display: flex;
+  align-items: center;
+}
+
+.footer-brand img{
+  padding: 3rem;
+  margin-left: 7rem;
+  
+ 
+
+}
+.dark-footer .social{
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  margin-left: 29rem !important;
+}
+.dark-footer .social-links {
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 10px;
+}
+.footer-links{
+  margin-left: 380px;
+}
+.footer-links a{
+  margin-top: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  color: white;
+  
 }

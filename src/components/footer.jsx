@@ -7,7 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 const Footer = ()=>{
     return (
         <>
-            <div className="d-flex flex-column px-3 py-3 align-items-center font-link text-center " style={{backgroundColor : "rgb(241, 241, 241)"}}><br />
+            <div className="d-flex flex-column px-3 py-3 align-items-center font-link text-center " style={{marginBottom:'400px', backgroundColor : "rgb(241, 241, 241)"}}><br />
 
                 <br />
 
